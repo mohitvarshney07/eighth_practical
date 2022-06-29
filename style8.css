@@ -1,0 +1,159 @@
+html{
+	scroll-padding-top: 105px;
+	scroll-behavior: smooth ;
+}
+body{
+	margin: 0 50px;
+}
+header{
+	width: 1250px;
+	height: 90px;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav ul li :hover{
+	background-color: white;
+	color: black;
+	padding: 25px;
+	transition: 0.5s;
+	border-radius: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 0 35px;
+	font-size: 28px;
+	color: white;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url("banner.avif");
+	margin-top: 115px;
+}
+h1{
+	color: red;
+	padding: 20px;
+	font-size: 70px;
+	font-family: arial;
+}
+.h{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+#sec1{
+	display: flex;
+	justify-content: space-evenly;
+}
+.circle{
+	width: 225px;
+	height: 225px;
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+#mem1{
+	background-image: url("member1.png");
+}
+#mem2{
+	background-image: url("member2.png");
+}
+#mem3{
+	background-image: url("member3.png");
+}
+#mem4{
+	background-image: url("member4.png");
+}
+#sec2{
+	display: flex;
+}
+main{
+	width: 50%;
+	height: 500px;
+	background-color: gray;
+	padding: 10px;
+}
+#t{
+	font-size: 22px;
+	color: white;
+	font-family: sans-serif;
+}
+.main{
+	font-size: 25px;
+	font-family: arial;
+	color: white;
+}
+aside{
+	width: 50%;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+aside .art{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+#art1{
+	background-image: url("article1.jpg");
+}
+#art2{
+	background-image: url("article2.jpg");
+}
+#art3{
+	background-image: url("article3.jpg");
+}
+#sec3{
+	display: flex;
+	justify-content: space-evenly;
+}
+.tech{
+	width: 20%;
+	height: 350px;
+	background-color: lightgray;
+}
+.img{
+	width: 100%; 
+	height: 150px;"
+}
+h3{
+	font-size: 22px;
+}
+.box{
+	text-align: center;
+}
+.btn{
+	width: 100%;
+	height: 40px;
+	background-color: red;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 5px;
+	
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: pink;
+	text-align: center;
+}
